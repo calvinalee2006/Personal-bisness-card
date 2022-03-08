@@ -1,17 +1,16 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "./styles.css"
-import App from "./App"
+// import React from "react";
+// import ReactDOM from "react-dom";
+// import "./styles.css"
+// import App from "./App"
 
-const card = (
-    <div>
-        <Header />
-    </div>
-)
+// const card = (
+//     <div>
+//         <Header />
+//     </div>
+// )
 
-ReactDOM.render(
-    <div>
+// ReactDOM.render(
+//     <App />,
+//     document.getElementById('root'))
 
-    </div>,
-    <App />,
-    document.getElementById('root'))
+//Dont forget me!!

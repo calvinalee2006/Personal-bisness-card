@@ -4,9 +4,37 @@ body {
     overflow: hidden;
 }
 
+.Card { 
+ margin-top: 10%;
+ margin-left: 40%;
+  background-color: #eee;
+  display: inline-block;
+}
+
 .smilePic{
-    display: block;
+  margin-top: 5%;
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 90%;
 }
+
+.Name{
+  text-align: center;
+  font-size: 25px;
+}
+
+.Title {
+  text-align: center;
+}
+
+.Email {
+  border: none;
+  background-color:green;
+  padding: 15px 32px;
+  text-align: center;
+  border-radius: 5px;
+  outline: 0;
+  text-transform: uppercase;
+}
+

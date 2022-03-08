@@ -4,14 +4,15 @@ import ReactDOM from 'react-dom';
 import "./styles.css";
 import Header from './components/Header';
 
-
 //Create a react component
 function App() {
     return (
-        <Header />
+        <span className="Card" border border-dark>
+            <Header />
+        </span>
+
     )
 }
-
 
 //take the react component and show it on the screen
 ReactDOM.render(

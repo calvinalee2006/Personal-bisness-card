@@ -4,34 +4,56 @@ body {
     overflow: hidden;
 }
 
-Card-Body{
-margin-left: 30px;
-}
-
 .smilePic{
   margin-top: 5%;
+  border-radius: 5px;
+}
+
+.card-body {
+  background-color:#000;
+  border: 'dark;';
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
 }
 
 .Name{
+  margin-top:5%;
   text-align: center;
-  font-size: 25px;
+  font-size: 45px;
+  color:#fff;
+  
 }
 
 .Title {
   text-align: center;
+  text-align: center;
+  font-size: 25px;
+  color:#fff;
 }
 
 .Email {
-  border: none;
+  border:#000;
   background-color:green;
   padding: 15px 32px;
   text-align: center;
   border-radius: 5px;
-  outline: 0;
-  text-transform: uppercase;
+  color:#fff;
 }
 
+.LinkdIn {
+  border:#000;
+  background-color:#8ED1FC;
+  padding: 15px 32px;
+  text-align: center;
+  border-radius: 5px;
+  color:#fff;
+}
+
+.Subject{
+  font-size: 30px;
+  color:#fff;
+}
+
+.CardText {
+  font-size: 18px;
+  color:#fff;
+}
